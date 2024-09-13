@@ -1,0 +1,86 @@
+@import url(reset7.css);
+
+.container {
+	max-width: 1200px;
+	margin: 20px auto;
+    outline: 2px solid black;
+    text-align: justify;
+    overflow: hidden;
+    background: #ccc;
+    }
+.test:hover::after {
+    content: 'AFTER';
+    background: blueviolet;
+}
+.test:hover::before {
+    content: 'BEFORE';
+    background: blueviolet;
+}
+.test-2:active {
+    background: rgb(75, 126, 75);
+}
+.test-3:hover> div {
+    background: blue;
+}
+    .d-inline-block {
+        display: inline-block;
+    }
+    .flex-1 {
+        display: flex;
+        flex-direction: row; /* знаю, что по дефолту */
+    }
+    .flex-2 {
+        display: flex;
+        flex-direction: column;
+    }
+   .outline {
+        outline: 2px solid black;
+    }  
+    .w-400 {
+        width: 400px;
+    }
+    .w-800 {
+        width: 800px;
+    }  
+    .h-100 {
+        height: 100px;
+    }
+    .h-133 {
+        height: 133.333px;
+    }
+    .h-200 {
+        height: 200px;
+    }
+    .h-400 {
+        height: 400px;
+    }
+    .pad {
+        padding: 10px;
+    }
+    .content {
+        align-self: center;
+    }
+   /* тут шота не получилось */
+    .flex-card {
+        width: 100%;
+        object-fit: cover;
+        flex: 1 1 400px;
+    }
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
